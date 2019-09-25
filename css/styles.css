@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 100px auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  border: 6px dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/********* containers *********/
+
+.top-container {
+  background-color: #badfdb;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin-top: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  width: 100%;
+  height: auto;
+  padding: 50px 0 20px;
+  margin-top: 100px;
+}
+
+/********* images *********/
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 15%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 410px;
+  left: 250px;
+}
+
+.profile-pic {
+  border-radius: 20px;
+  border: 6px #EAF6F6 solid;
+  margin-top: 100px;
+}
+
+.study-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coffee-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*********  *********/
+
+.about-me {
+  width: 30%;
+  margin: 0 auto 60px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.dontcha {
+  margin-bottom: 60px;
+}
+
+/********* button *********/
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: .9rem;
+  margin: auto;
+  padding: 10px 25px;
+  border-radius: 8px;
+  background: linear-gradient(top,  #18D7DE,  #108F94);
+  background: -ms-linear-gradient(top,  #18D7DE,  #108F94);
+  background: -webkit-gradient(linear, left top, left bottom, from(#18D7DE), to(#108F94));
+  background: -moz-linear-gradient(top,  #18D7DE,  #108F94);
+}
+.button:hover {
+  color: #FFFFFF;
+  box-shadow: 0 0 3px 3px #f2a6a6;
+  background: linear-gradient(top,  #18D7DE,  #108F94);
+  background: -ms-linear-gradient(top,  #18D7DE,  #108F94);
+  background: -webkit-gradient(linear, left top, left bottom, from(#18D7DE), to(#108F94));
+  background: -moz-linear-gradient(top,  #18D7DE,  #108F94);
+}
+
+/********* id's *********/
+
+#copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
